@@ -15,6 +15,8 @@
 		F0A7EE7526CF440D000AA1CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A7EE4A26CF440A000AA1CF /* ContentView.swift */; };
 		F0A7EE7626CF440D000AA1CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A7EE4B26CF440C000AA1CF /* Assets.xcassets */; };
 		F0A7EE7726CF440D000AA1CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A7EE4B26CF440C000AA1CF /* Assets.xcassets */; };
+		F0A7EE8726CF446B000AA1CF /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A7EE8626CF446B000AA1CF /* NavView.swift */; };
+		F0A7EE8826CF446B000AA1CF /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A7EE8626CF446B000AA1CF /* NavView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		F0A7EE6B26CF440C000AA1CF /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0A7EE6F26CF440D000AA1CF /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		F0A7EE7126CF440D000AA1CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0A7EE8626CF446B000AA1CF /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 				F0A7EE4926CF440A000AA1CF /* RAWGApp.swift */,
 				F0A7EE4A26CF440A000AA1CF /* ContentView.swift */,
 				F0A7EE4B26CF440C000AA1CF /* Assets.xcassets */,
+				F0A7EE8626CF446B000AA1CF /* NavView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -308,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0A7EE8726CF446B000AA1CF /* NavView.swift in Sources */,
 				F0A7EE7426CF440D000AA1CF /* ContentView.swift in Sources */,
 				F0A7EE7226CF440D000AA1CF /* RAWGApp.swift in Sources */,
 			);
@@ -317,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0A7EE8826CF446B000AA1CF /* NavView.swift in Sources */,
 				F0A7EE7526CF440D000AA1CF /* ContentView.swift in Sources */,
 				F0A7EE7326CF440D000AA1CF /* RAWGApp.swift in Sources */,
 			);
