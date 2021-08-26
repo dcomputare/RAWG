@@ -1,0 +1,11 @@
+//
+//  config.xcconfig
+//  RAWG
+//
+//  Created by Steven on 20/08/21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+RAWG_API_KEY=Key API RAWG
