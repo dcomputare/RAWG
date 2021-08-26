@@ -7,22 +7,24 @@
 
 import SwiftUI
 
+
 struct NavView: View {
+    @State private var searchText = ""
     var body: some View {
         TabView {
             NavigationView {
-                ContentView()
+                GameListView()
             }
             .tabItem {
-                Image(systemName: "airplane.circle.fill")
-                Text("Discover")
+                Image(systemName: "gamecontroller.fill")
+                Text("Games")
             }
 
             NavigationView {
                 ContentView()
             }
             .tabItem {
-                Image(systemName: "star.fill")
+                Image(systemName: "square.split.2x2.fill")
                 Text("Locations")
             }
 

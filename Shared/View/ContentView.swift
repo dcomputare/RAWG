@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    let apikey = Bundle.main.infoDictionary?["RAWG_API_KEY"] as? String
     var body: some View {
-        Text("Hello, world!")
+        Text(apikey!)
             .padding()
     }
 }

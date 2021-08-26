@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,16 @@
 		F0A7EE7726CF440D000AA1CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A7EE4B26CF440C000AA1CF /* Assets.xcassets */; };
 		F0A7EE8726CF446B000AA1CF /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A7EE8626CF446B000AA1CF /* NavView.swift */; };
 		F0A7EE8826CF446B000AA1CF /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A7EE8626CF446B000AA1CF /* NavView.swift */; };
+		F0CCE57226D4F96600340CD4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F0CCE57126D4F96600340CD4 /* Kingfisher */; };
+		F0CCE57526D4FB0800340CD4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F0CCE57426D4FB0800340CD4 /* Alamofire */; };
+		F0CCE57726D72B9200340CD4 /* GameListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CCE57626D72B9200340CD4 /* GameListView.swift */; };
+		F0CCE57826D72B9200340CD4 /* GameListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CCE57626D72B9200340CD4 /* GameListView.swift */; };
+		F0CCE57B26D7353C00340CD4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F0CCE57A26D7353C00340CD4 /* Kingfisher */; };
+		F0CCE57D26D7354000340CD4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F0CCE57C26D7354000340CD4 /* Alamofire */; };
+		F0E501B226D393D500BE9600 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E501B126D393D500BE9600 /* ApiResponse.swift */; };
+		F0E501B326D393D500BE9600 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E501B126D393D500BE9600 /* ApiResponse.swift */; };
+		F0E501B626D3957200BE9600 /* GameTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E501B526D3957200BE9600 /* GameTileView.swift */; };
+		F0E501B726D3957200BE9600 /* GameTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E501B526D3957200BE9600 /* GameTileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +61,11 @@
 		F0A7EE6B26CF440C000AA1CF /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0A7EE6F26CF440D000AA1CF /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		F0A7EE7126CF440D000AA1CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0A7EE8626CF446B000AA1CF /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
+		F0A7EE8626CF446B000AA1CF /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = NavView.swift; sourceTree = "<group>"; };
+		F0A7EE8926CFA210000AA1CF /* config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = config.xcconfig; sourceTree = "<group>"; };
+		F0CCE57626D72B9200340CD4 /* GameListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListView.swift; sourceTree = "<group>"; };
+		F0E501B126D393D500BE9600 /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		F0E501B526D3957200BE9600 /* GameTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0CCE57226D4F96600340CD4 /* Kingfisher in Frameworks */,
+				F0CCE57526D4FB0800340CD4 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0CCE57B26D7353C00340CD4 /* Kingfisher in Frameworks */,
+				F0CCE57D26D7354000340CD4 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,16 +113,18 @@
 				F0A7EE6326CF440C000AA1CF /* Tests iOS */,
 				F0A7EE6E26CF440D000AA1CF /* Tests macOS */,
 				F0A7EE5126CF440C000AA1CF /* Products */,
+				F0CCE57926D7353C00340CD4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		F0A7EE4826CF440A000AA1CF /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				F0E501B426D393FB00BE9600 /* View */,
+				F0E501B026D3939800BE9600 /* Model */,
 				F0A7EE4926CF440A000AA1CF /* RAWGApp.swift */,
-				F0A7EE4A26CF440A000AA1CF /* ContentView.swift */,
 				F0A7EE4B26CF440C000AA1CF /* Assets.xcassets */,
-				F0A7EE8626CF446B000AA1CF /* NavView.swift */,
+				F0A7EE8926CFA210000AA1CF /* config.xcconfig */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -155,6 +175,32 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		F0CCE57926D7353C00340CD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0E501B026D3939800BE9600 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0E501B126D393D500BE9600 /* ApiResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F0E501B426D393FB00BE9600 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0A7EE4A26CF440A000AA1CF /* ContentView.swift */,
+				F0A7EE8626CF446B000AA1CF /* NavView.swift */,
+				F0E501B526D3957200BE9600 /* GameTileView.swift */,
+				F0CCE57626D72B9200340CD4 /* GameListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -171,6 +217,10 @@
 			dependencies = (
 			);
 			name = "RAWG (iOS)";
+			packageProductDependencies = (
+				F0CCE57126D4F96600340CD4 /* Kingfisher */,
+				F0CCE57426D4FB0800340CD4 /* Alamofire */,
+			);
 			productName = "RAWG (iOS)";
 			productReference = F0A7EE5026CF440C000AA1CF /* RAWG.app */;
 			productType = "com.apple.product-type.application";
@@ -188,6 +238,10 @@
 			dependencies = (
 			);
 			name = "RAWG (macOS)";
+			packageProductDependencies = (
+				F0CCE57A26D7353C00340CD4 /* Kingfisher */,
+				F0CCE57C26D7354000340CD4 /* Alamofire */,
+			);
 			productName = "RAWG (macOS)";
 			productReference = F0A7EE5826CF440C000AA1CF /* RAWG.app */;
 			productType = "com.apple.product-type.application";
@@ -262,6 +316,10 @@
 				Base,
 			);
 			mainGroup = F0A7EE4326CF4409000AA1CF;
+			packageReferences = (
+				F0CCE57026D4F96600340CD4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				F0CCE57326D4FB0800340CD4 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = F0A7EE5126CF440C000AA1CF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -312,7 +370,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0E501B626D3957200BE9600 /* GameTileView.swift in Sources */,
 				F0A7EE8726CF446B000AA1CF /* NavView.swift in Sources */,
+				F0CCE57726D72B9200340CD4 /* GameListView.swift in Sources */,
+				F0E501B226D393D500BE9600 /* ApiResponse.swift in Sources */,
 				F0A7EE7426CF440D000AA1CF /* ContentView.swift in Sources */,
 				F0A7EE7226CF440D000AA1CF /* RAWGApp.swift in Sources */,
 			);
@@ -322,7 +383,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0E501B726D3957200BE9600 /* GameTileView.swift in Sources */,
 				F0A7EE8826CF446B000AA1CF /* NavView.swift in Sources */,
+				F0CCE57826D72B9200340CD4 /* GameListView.swift in Sources */,
+				F0E501B326D393D500BE9600 /* ApiResponse.swift in Sources */,
 				F0A7EE7526CF440D000AA1CF /* ContentView.swift in Sources */,
 				F0A7EE7326CF440D000AA1CF /* RAWGApp.swift in Sources */,
 			);
@@ -362,6 +426,7 @@
 /* Begin XCBuildConfiguration section */
 		F0A7EE7826CF440D000AA1CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0A7EE8926CFA210000AA1CF /* config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -702,6 +767,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F0CCE57026D4F96600340CD4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.1;
+			};
+		};
+		F0CCE57326D4FB0800340CD4 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F0CCE57126D4F96600340CD4 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F0CCE57026D4F96600340CD4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		F0CCE57426D4FB0800340CD4 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F0CCE57326D4FB0800340CD4 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		F0CCE57A26D7353C00340CD4 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F0CCE57026D4F96600340CD4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		F0CCE57C26D7354000340CD4 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F0CCE57326D4FB0800340CD4 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F0A7EE4426CF4409000AA1CF /* Project object */;
 }
